@@ -1,0 +1,28 @@
+.main-introduction {
+  position: relative;
+  left: calc(50% - 40rem);
+  display: inline-block;
+  margin: 0 10rem;
+  text-align: center;
+}
+
+.doctor-detail {
+  display: inline-block;
+  margin-left: 6rem;
+  margin-right: 5rem;
+}
+
+#number1 {
+  display: block;
+  text-align: center;
+}
+
+#number2 {
+  display: block;
+  text-align: center;
+}
+
+#number3 {
+  display: block;
+  text-align: center;
+}

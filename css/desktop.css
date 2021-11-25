@@ -1,0 +1,16 @@
+#number1 {
+  display: inline-block;
+  margin-left: 0.1rem;
+}
+
+#number2 {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 0.1rem;
+}
+
+#number3 {
+  display: inline-block;
+  margin-left: 5rem;
+  margin-right: 0;
+}

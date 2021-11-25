@@ -1,0 +1,253 @@
+:root {
+  --red: #e63946;
+  --white: #f1faee;
+  --blue: #1d3557;
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  min-width: 32rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--blue);
+}
+
+header .logo {
+  margin-top: 5rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+header .container {
+  width: 90%;
+  min-width: 28rem;
+  max-width: 90rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+header .container h2 {
+  color: var(--white);
+}
+
+header .container p {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+header .container a {
+  position: absolute;
+  top: 20.75rem;
+  left: calc(50% - 11.425rem);
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  width: 22.9rem;
+  height: 4.8rem;
+  background-color: var(--white);
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--blue);
+  border-radius: 0.5rem;
+}
+
+.container span {
+  display: inline-block;
+  width: 1.3rem;
+  height: 0.8rem;
+  margin-left: 1rem;
+  background-image: url("../images/down-arrow.png");
+}
+
+main {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  background-color: var(--white);
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+.main-introduction .background-img1 {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-image: url(../images/ecografia.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-introduction h2 {
+  text-align: center;
+  width: 20rem;
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  color: var(--blue);
+}
+
+.main-introduction .background-img2 {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  background-image: url(../images/rinones.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .main-consults {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+}
+
+.main-consults__ultrasounds {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  min-width: 23.5rem;
+  max-width: 50rem;
+  height: 36rem;
+  margin: 6rem auto;
+  margin-bottom: 2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.consults__title {
+  color: var(--red);
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1.75rem;
+  line-height: 2.3rem;
+}
+
+.consults__table {
+  line-height: 2.3rem;
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+
+.main-installations {
+  text-align: center;
+  width: 100%;
+  min-width: 32rem;
+  height: 38.7rem;
+  background-image: url(../images/fondo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-installations h2 {
+  position: relative;
+  top: 32.5rem;
+  display: inline-block;
+  margin-top: 4rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.main-installations2 {
+  width: 100%;
+  min-width: 32rem;
+  height: 38.7rem;
+  background-image: url(../images/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-presentation {
+  width: 100%;
+  min-width: 32rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation-title {
+  margin-top: 4rem;
+}
+
+.presentation-title h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--red);
+}
+
+.doctor-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28.8rem;
+  height: 8rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--white);
+  box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+  border-radius: 0.5rem;
+  color: var(--blue);
+}
+
+.doctor-card__title {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#number1 {
+  align-items: center;
+  justify-content: center;
+}
+
+#number2 {
+  align-items: center;
+  justify-content: center;
+}
+
+#number3 {
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  width: 100%;
+  min-width: 32rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 2rem;
+  font-weight: bold;
+}
