@@ -251,3 +251,11 @@ footer {
   font-size: 2rem;
   font-weight: bold;
 }
+
+#direction .presentation-title {
+  margin-top: 1rem;
+}
+
+#direction .doctor-detail {
+  margin-bottom: 3.2rem;
+}
