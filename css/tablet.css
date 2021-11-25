@@ -1,14 +1,14 @@
 .main-introduction {
   position: relative;
-  left: calc(50% - 40rem);
+  left: calc(50% - 36rem);
   display: inline-block;
-  margin: 0 10rem;
+  margin: 0 8rem;
   text-align: center;
 }
 
 .doctor-detail {
   display: inline-block;
-  margin-left: 6rem;
+  margin-left: 5rem;
   margin-right: 5rem;
 }
 
@@ -24,5 +24,10 @@
 
 #number3 {
   display: block;
+  text-align: center;
+}
+#direction .doctor-detail {
+  width: 45rem;
+  min-width: 32rem;
   text-align: center;
 }
