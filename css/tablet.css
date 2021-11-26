@@ -15,19 +15,23 @@
 #number1 {
   display: block;
   text-align: center;
+  height: 7rem;
 }
 
 #number2 {
   display: block;
   text-align: center;
+  height: 7rem;
 }
 
 #number3 {
   display: block;
   text-align: center;
+  height: 7rem;
 }
 #direction .doctor-detail {
   width: 45rem;
   min-width: 32rem;
+  height: 7rem;
   text-align: center;
 }
